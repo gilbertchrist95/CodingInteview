@@ -7,9 +7,6 @@ public class IsUniqueChar {
         boolean isUnique2 = isUnique2(value);
         System.out.println(isUnique);
         System.out.println(isUnique2);
-
-        int x = 3 << 2;
-        System.out.println(x);
     }
 
     private static boolean isUnique2(String value) {
