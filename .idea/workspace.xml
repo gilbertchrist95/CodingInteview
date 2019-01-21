@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6288d389-0f15-4f9a-93d5-f85c2818ba4e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Chapter1/CheckPermutation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Chapter1/URLify.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingInterview/Chapter1/IsUniqueChar.class" afterPath="$PROJECT_DIR$/out/production/CodingInterview/Chapter1/IsUniqueChar.class" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter1/IsUniqueChar.java" afterPath="$PROJECT_DIR$/src/Chapter1/IsUniqueChar.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckPermutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckPermutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter1/CheckPermutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URLify.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1/URLify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -67,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/Sample.kt" />
         <option value="$PROJECT_DIR$/src/Chapter1/IsUniqueChar.java" />
         <option value="$PROJECT_DIR$/src/Chapter1/CheckPermutation.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1/URLify.java" />
       </list>
     </option>
   </component>
@@ -138,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckPermutation">
+  <component name="RunManager" selected="Application.URLify">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -172,6 +181,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Chapter1.IsUniqueChar" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodingInterview" />
+      <envs />
+    </configuration>
+    <configuration name="URLify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter1.URLify" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -269,16 +297,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.SampleKt" />
       <item index="1" class="java.lang.String" itemvalue="Application.IsUniqueChar" />
       <item index="2" class="java.lang.String" itemvalue="Application.CheckPermutation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.URLify" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.CheckPermutation" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IsUniqueChar" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.SampleKt" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.URLify" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CheckPermutation" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IsUniqueChar" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.SampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -392,8 +422,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1/CheckPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="105">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1/URLify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
         </state>
       </provider>
